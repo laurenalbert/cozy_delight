@@ -10,7 +10,7 @@ export default function AllProducts() {
   return (
     <Layout>
       <Seo type="page" data={{title: 'All Products'}} />
-      <PageHeader heading="All Products" variant="allCollections" />
+      <PageHeader heading="MOST Products" variant="allCollections" />
       <Section>
         <Suspense>
           <AllProductsGrid />
